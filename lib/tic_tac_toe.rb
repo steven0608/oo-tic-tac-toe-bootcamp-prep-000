@@ -59,6 +59,9 @@ end
    end
  end
 
+def full?
+!(@board.include?("") || board.include?(" "))
+end
 
 
 

@@ -76,7 +76,7 @@ def winner
     return @board[won?[0]]
   end
 end
-  
+
 
 
 

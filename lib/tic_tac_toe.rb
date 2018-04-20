@@ -77,7 +77,16 @@ def winner
   end
 end
 
+def play
+until over?
+  turn
+end
+if won?
+  puts "congratulations #{winner}!"
 
-
+elsif draw?
+  puts "cat's Game!"
+end
+end
 
 end

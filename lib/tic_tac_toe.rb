@@ -60,7 +60,7 @@ end
  end
 
 def full?
-!(@board.include?("") || board.include?(" "))
+!(@board.include?("") || @board.include?(" "))
 end
 
 def draw?

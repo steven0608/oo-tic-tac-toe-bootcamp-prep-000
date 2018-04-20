@@ -71,5 +71,13 @@ def over?
 won? || draw? || full?
 end
 
+def winner
+  if won?
+    return @board[won?[0]]
+  end
+end
+  
+
+
 
 end

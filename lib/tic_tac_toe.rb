@@ -41,6 +41,23 @@ def current_player
 turn_count.even? ? "X" : "O"
 end
 
+ def turn
+puts "Please enter your move (1-9): "
+user_input=gets.strip
+position=input_to_index(user_input)
+if (valid_move?(position))
+  token=current_player
+  move(position,token)
+  display_board
+else
+  turn
+end
+end
+
+
+
+
+ end
 
 
 

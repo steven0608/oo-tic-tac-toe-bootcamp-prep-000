@@ -57,7 +57,7 @@ end
    WIN_COMBINATIONS.detect do |x|
      @board[x[0]]==@board[x[1]] && @board[x[1]]==@board[x[2]] && (@board[x[0]]=="X" || @board[x[0]]=="O")
    end
- end 
+ end
 
 
 

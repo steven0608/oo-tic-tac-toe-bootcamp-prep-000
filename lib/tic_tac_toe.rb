@@ -82,10 +82,10 @@ until over?
   turn
 end
 if won?
-  puts "congratulations #{winner}!"
+  puts "Congratulations #{winner}!"
 
 elsif draw?
-  puts "cat's Game!"
+  puts "Cat's Game!"
 end
 end
 
